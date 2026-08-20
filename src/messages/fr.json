@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "siteName": "Hitotoki Collective",
+    "description": "Le Hitotoki Collective laisse des traces culturelles — des performances multimédias vivantes mêlant peinture, musique, film, photographie et mouvement, données en des lieux sacrés et offertes librement à leurs gardiens.",
+    "pages": {
+      "home": {
+        "title": "Hitotoki Collective — traces de l'instant",
+        "description": "Performances artistiques multimédias en des lieux sacrés. Peinture, musique, film, photographie et mouvement convergent en un instant unique et irrépétible."
+      },
+      "philosophy": {
+        "title": "Philosophie",
+        "description": "Des jalons pour les ancêtres à venir : pourquoi le Hitotoki Collective donne des performances irrépétibles en des lieux sacrés et en offre les fruits."
+      },
+      "performances": {
+        "title": "Traces",
+        "description": "L'archive des traces laissées par le Hitotoki Collective — performances multimédias vivantes données dans les temples anciens de Kyoto."
+      },
+      "patronage": {
+        "title": "Mécénat",
+        "description": "Mécènes et gardiens : l'économie à contre-courant du Hitotoki Collective."
+      },
+      "performance": {
+        "title": "Trace {code}",
+        "description": "Trace {code} — une performance multimédia vivante du Hitotoki Collective, donnée à Kyoto, au Japon, et offerte aux gardiens du lieu."
+      }
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "philosophy": "Philosophie",
+    "performances": "Traces",
+    "patronage": "Mécénat",
+    "skipToContent": "Aller au contenu",
+    "mainLabel": "Navigation principale",
+    "languageLabel": "Langue"
+  },
+  "home": {
+    "kicker": "Hitotoki · 一時 · un instant",
+    "heroTitle": "Les traces d'un instant, laissées à ceux qui viendront.",
+    "heroLede": "Peinture, musique, film, photographie et mouvement convergent en des performances vivantes données en des lieux sacrés — les temples anciens de Kyoto — où le temps s'ouvre sur une intemporalité primordiale. Ce qui demeure est offert librement aux gardiens de ces lieux.",
+    "ctaTraces": "Entrer dans les traces",
+    "ctaPhilosophy": "Lire la philosophie",
+    "elementsTitle": "Cinq éléments, un seul instant",
+    "elements": {
+      "painting": {
+        "name": "Peinture",
+        "line": "L'encre et le pigment répondent à l'instant qui se déploie."
+      },
+      "music": {
+        "name": "Musique",
+        "line": "Le son s'élève et se dissout dans l'air du temple."
+      },
+      "film": {
+        "name": "Film",
+        "line": "La lumière en mouvement, recueillie à son passage."
+      },
+      "photography": {
+        "name": "Photographie",
+        "line": "L'instant retenu sans être arrêté."
+      },
+      "movement": {
+        "name": "Mouvement",
+        "line": "Le corps trace le temps dans l'espace."
+      }
+    },
+    "tracesTitle": "Traces récentes",
+    "tracesLede": "Deux traces ont été laissées à ce jour, toutes deux dans l'enceinte des temples anciens de Kyoto.",
+    "viewAll": "Voir toutes les traces"
+  },
+  "philosophy": {
+    "kicker": "Philosophie",
+    "title": "Des jalons pour les ancêtres à venir",
+    "sections": {
+      "s1": {
+        "title": "Traces culturelles",
+        "body": "Le Hitotoki Collective laisse des traces culturelles — des jalons pour les ancêtres à venir, qui traceront leurs propres chemins en leurs propres temps. Chaque trace est ancrée dans un espace créatif multidimensionnel où l'instant lui-même est quintessentiel."
+      },
+      "s2": {
+        "title": "L'instant est quintessentiel",
+        "body": "Peinture, musique, film, photographie et mouvement convergent en des performances multimédias vivantes données en des lieux sacrés, tels les temples anciens de Kyoto, où le temps s'ouvre sur une intemporalité primordiale. Rien n'est répété en vue de durer ; seul compte ce qui n'advient qu'une fois."
+      },
+      "s3": {
+        "title": "Une économie à contre-courant",
+        "body": "Le Collectif prend le contre-pied de l'économie de la culture. Financés par des mécènes accordés à l'esprit du projet, les fruits analogiques de chaque performance sont offerts librement aux gardiens des lieux qui les reçoivent."
+      },
+      "s4": {
+        "title": "Les gardiens",
+        "body": "Chaque offrande est faite en signe de respect profond et joyeux — mais il serait malhonnête de taire un second motif : la conviction que ces gardiens offrent la meilleure assurance que les jalons résisteront aux vicissitudes de l'histoire."
+      }
+    }
+  },
+  "performances": {
+    "kicker": "L'archive",
+    "title": "Traces",
+    "lede": "Chaque performance est consignée dans l'archive comme une trace — numérotée, située, puis donnée. Deux traces ont été laissées à ce jour, toutes deux à Kyoto.",
+    "viewTrace": "Voir cette trace",
+    "archiveLabel": "Code d'archive",
+    "locationLabel": "Lieu",
+    "kyoto": "Kyoto, Japon"
+  },
+  "performance": {
+    "ordinal1": "Première performance",
+    "ordinal2": "Deuxième performance",
+    "settingTitle": "Le lieu",
+    "settingBody": "Donnée dans une enceinte sacrée de Kyoto, parmi des édifices qui veillent depuis des siècles. Le temps s'y ouvre sur une intemporalité primordiale, et la performance y pénètre le temps d'un soir.",
+    "elementsTitle": "Les éléments",
+    "elementsLine": "Peinture, musique, film, photographie et mouvement — convergeant en direct, irrépétibles, en un seul instant.",
+    "offeringTitle": "L'offrande",
+    "offeringBody": "Les fruits analogiques de cette performance ont été offerts librement aux gardiens du lieu, en signe de respect profond et joyeux — et dans la conviction que de tels gardiens offrent la meilleure assurance que la trace résistera aux vicissitudes de l'histoire.",
+    "archiveNote": "La documentation filmée de cette trace est conservée dans l'archive du Collectif.",
+    "back": "Retourner aux traces"
+  },
+  "patronage": {
+    "kicker": "Mécénat",
+    "title": "Mécènes et gardiens",
+    "lede": "Le Collectif est financé par des mécènes accordés à l'esprit du projet. Les fruits de chaque performance ne sont pas vendus ; ils sont donnés.",
+    "sponsorsTitle": "Mécènes",
+    "sponsorsBody": "Le mécénat est un acte d'accord plutôt que d'échange. Les mécènes rendent chaque performance possible et entrent, ce faisant, dans la lignée de la trace qu'elle laisse.",
+    "guardiansTitle": "Gardiens",
+    "guardiansBody": "Les gardiens — dépositaires des lieux sacrés qui accueillent chaque performance — reçoivent les offrandes et les portent à travers le temps, comme ils ont porté tant d'autres choses.",
+    "correspondenceTitle": "Correspondance",
+    "correspondenceBody": "Les présentations se font de vive voix, par les mécènes et les gardiens du Collectif. Si l'esprit du projet vous parle, vous trouverez votre chemin jusqu'à nous."
+  },
+  "footer": {
+    "tagline": "Toucher le cœur.",
+    "origin": "Né en Suisse, grandi au Japon, mûrissant partout.",
+    "rights": "© {year} Hitotoki Collective"
+  },
+  "notFound": {
+    "title": "Ce chemin ne laisse aucune trace",
+    "body": "La page que vous cherchez n'existe pas — ou s'est dissoute dans l'instant.",
+    "back": "Revenir au commencement"
+  }
+}

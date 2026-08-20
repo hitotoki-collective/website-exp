@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "siteName": "Hitotoki Collective",
+    "description": "El Hitotoki Collective deja huellas culturales: performances multimedia en vivo de pintura, música, cine, fotografía y movimiento, realizadas en lugares sagrados y ofrecidas libremente a sus guardianes.",
+    "pages": {
+      "home": {
+        "title": "Hitotoki Collective — huellas del instante",
+        "description": "Performances artísticas multimedia en lugares sagrados. Pintura, música, cine, fotografía y movimiento convergen en un instante único e irrepetible."
+      },
+      "philosophy": {
+        "title": "Filosofía",
+        "description": "Señales para los ancestros por venir: por qué el Hitotoki Collective realiza performances irrepetibles en lugares sagrados y regala sus frutos."
+      },
+      "performances": {
+        "title": "Huellas",
+        "description": "El archivo de huellas dejadas por el Hitotoki Collective: performances multimedia en vivo realizadas en los templos antiguos de Kioto."
+      },
+      "patronage": {
+        "title": "Mecenazgo",
+        "description": "Mecenas y guardianes: la economía a contracorriente del Hitotoki Collective."
+      },
+      "performance": {
+        "title": "Huella {code}",
+        "description": "Huella {code}: una performance multimedia en vivo del Hitotoki Collective, realizada en Kioto, Japón, y ofrecida a los guardianes del lugar."
+      }
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "philosophy": "Filosofía",
+    "performances": "Huellas",
+    "patronage": "Mecenazgo",
+    "skipToContent": "Saltar al contenido",
+    "mainLabel": "Navegación principal",
+    "languageLabel": "Idioma"
+  },
+  "home": {
+    "kicker": "Hitotoki · 一時 · un instante",
+    "heroTitle": "Huellas de un instante, dejadas para quienes vendrán.",
+    "heroLede": "Pintura, música, cine, fotografía y movimiento convergen en performances en vivo realizadas en lugares sagrados —los templos antiguos de Kioto—, donde el tiempo se abre a una intemporalidad primordial. Lo que permanece se ofrece libremente a los guardianes de esos lugares.",
+    "ctaTraces": "Entrar en las huellas",
+    "ctaPhilosophy": "Leer la filosofía",
+    "elementsTitle": "Cinco elementos, un solo instante",
+    "elements": {
+      "painting": {
+        "name": "Pintura",
+        "line": "Tinta y pigmento responden al instante que se despliega."
+      },
+      "music": {
+        "name": "Música",
+        "line": "El sonido se alza y se disuelve en el aire del templo."
+      },
+      "film": {
+        "name": "Cine",
+        "line": "La luz en movimiento, recogida a su paso."
+      },
+      "photography": {
+        "name": "Fotografía",
+        "line": "El instante retenido sin ser detenido."
+      },
+      "movement": {
+        "name": "Movimiento",
+        "line": "El cuerpo traza el tiempo en el espacio."
+      }
+    },
+    "tracesTitle": "Huellas recientes",
+    "tracesLede": "Hasta ahora se han dejado dos huellas, ambas en los recintos de los templos antiguos de Kioto.",
+    "viewAll": "Ver todas las huellas"
+  },
+  "philosophy": {
+    "kicker": "Filosofía",
+    "title": "Señales para los ancestros por venir",
+    "sections": {
+      "s1": {
+        "title": "Huellas culturales",
+        "body": "El Hitotoki Collective deja huellas culturales: señales para los ancestros por venir, que recorrerán sus propios caminos en sus propios tiempos. Cada huella está anclada en un espacio creativo multidimensional donde el instante mismo es quintaesencial."
+      },
+      "s2": {
+        "title": "El instante es quintaesencial",
+        "body": "Pintura, música, cine, fotografía y movimiento convergen en performances multimedia en vivo realizadas en lugares sagrados, como los templos antiguos de Kioto, donde el tiempo se abre a una intemporalidad primordial. Nada se ensaya para perdurar; lo que importa es lo que sucede una sola vez."
+      },
+      "s3": {
+        "title": "Una economía a contracorriente",
+        "body": "El Colectivo adopta un enfoque a contracorriente de la economía de la cultura. Financiados por mecenas afines al espíritu del proyecto, los frutos analógicos de cada performance se ofrecen libremente a los guardianes de los lugares que los reciben."
+      },
+      "s4": {
+        "title": "Los guardianes",
+        "body": "Cada ofrenda se hace como señal de un respeto profundo y gozoso; sin embargo, sería una omisión no declarar un segundo motivo: la convicción de que estos guardianes ofrecen la mejor garantía de que las señales resistirán las vicisitudes de la historia."
+      }
+    }
+  },
+  "performances": {
+    "kicker": "El archivo",
+    "title": "Huellas",
+    "lede": "Cada performance queda registrada en el archivo como una huella: numerada, situada y entregada. Hasta ahora se han dejado dos huellas, ambas en Kioto.",
+    "viewTrace": "Ver esta huella",
+    "archiveLabel": "Código de archivo",
+    "locationLabel": "Lugar",
+    "kyoto": "Kioto, Japón"
+  },
+  "performance": {
+    "ordinal1": "Primera performance",
+    "ordinal2": "Segunda performance",
+    "settingTitle": "El lugar",
+    "settingBody": "Realizada en un recinto sagrado de Kioto, entre estructuras que velan desde hace siglos. Allí el tiempo se abre a una intemporalidad primordial, y la performance entra en ella durante el transcurso de una sola velada.",
+    "elementsTitle": "Los elementos",
+    "elementsLine": "Pintura, música, cine, fotografía y movimiento: convergiendo en vivo, irrepetibles, en un solo instante.",
+    "offeringTitle": "La ofrenda",
+    "offeringBody": "Los frutos analógicos de esta performance fueron ofrecidos libremente a los guardianes del lugar, como señal de un respeto profundo y gozoso, y con la convicción de que tales guardianes ofrecen la mejor garantía de que la huella resistirá las vicisitudes de la historia.",
+    "archiveNote": "La documentación audiovisual de esta huella se conserva en el archivo del Colectivo.",
+    "back": "Volver a las huellas"
+  },
+  "patronage": {
+    "kicker": "Mecenazgo",
+    "title": "Mecenas y guardianes",
+    "lede": "El Colectivo está financiado por mecenas afines al espíritu del proyecto. Los frutos de cada performance no se venden; se regalan.",
+    "sponsorsTitle": "Mecenas",
+    "sponsorsBody": "El mecenazgo es un acto de afinidad más que de intercambio. Los mecenas hacen posible cada performance y, al hacerlo, entran en el linaje de la huella que deja.",
+    "guardiansTitle": "Guardianes",
+    "guardiansBody": "Los guardianes —custodios de los lugares sagrados que acogen cada performance— reciben las ofrendas y las llevan a través del tiempo, como han llevado tantas otras cosas.",
+    "correspondenceTitle": "Correspondencia",
+    "correspondenceBody": "Las presentaciones viajan de boca en boca, a través de los mecenas y guardianes del Colectivo. Si el espíritu del proyecto le habla, encontrará su camino hasta nosotros."
+  },
+  "footer": {
+    "tagline": "Tocar el corazón.",
+    "origin": "Nacido en Suiza, criado en Japón, madurando en todas partes.",
+    "rights": "© {year} Hitotoki Collective"
+  },
+  "notFound": {
+    "title": "Este camino no deja huella",
+    "body": "La página que busca no existe, o se ha disuelto de nuevo en el instante.",
+    "back": "Volver al comienzo"
+  }
+}

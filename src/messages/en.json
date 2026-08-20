@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "siteName": "Hitotoki Collective",
+    "description": "The Hitotoki Collective leaves cultural traces — live multimedia performances of painting, music, film, photography and movement, staged in sacred places and offered freely to their guardians.",
+    "pages": {
+      "home": {
+        "title": "Hitotoki Collective — traces of the moment",
+        "description": "Live multimedia art performances in sacred places. Painting, music, film, photography and movement converge in a single unrepeatable moment."
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "description": "Signposts for the forecestors: why the Hitotoki Collective stages unrepeatable performances in sacred places and gives their fruits away."
+      },
+      "performances": {
+        "title": "Traces",
+        "description": "The archive of traces left by the Hitotoki Collective — live multimedia performances staged in the ancient temples of Kyoto."
+      },
+      "patronage": {
+        "title": "Patronage",
+        "description": "Sponsors and guardians: the counter-intuitive economics of the Hitotoki Collective."
+      },
+      "performance": {
+        "title": "Trace {code}",
+        "description": "Trace {code} — a live multimedia performance by the Hitotoki Collective, staged in Kyoto, Japan and offered to the guardians of the place."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "philosophy": "Philosophy",
+    "performances": "Traces",
+    "patronage": "Patronage",
+    "skipToContent": "Skip to content",
+    "mainLabel": "Primary navigation",
+    "languageLabel": "Language"
+  },
+  "home": {
+    "kicker": "Hitotoki · 一時 · a moment",
+    "heroTitle": "Traces of a moment, left for those still to come.",
+    "heroLede": "Painting, music, film, photography and movement converge in live performances staged in sacred places — the ancient temples of Kyoto — where time opens onto a primordial timelessness. What remains is offered freely to the guardians of those places.",
+    "ctaTraces": "Enter the traces",
+    "ctaPhilosophy": "Read the philosophy",
+    "elementsTitle": "Five elements, one moment",
+    "elements": {
+      "painting": {
+        "name": "Painting",
+        "line": "Ink and pigment answering the moment as it unfolds."
+      },
+      "music": {
+        "name": "Music",
+        "line": "Sound rising and dissolving in the temple air."
+      },
+      "film": {
+        "name": "Film",
+        "line": "Light in motion, gathered as it passes."
+      },
+      "photography": {
+        "name": "Photography",
+        "line": "The instant held still without being stopped."
+      },
+      "movement": {
+        "name": "Movement",
+        "line": "The body tracing time through space."
+      }
+    },
+    "tracesTitle": "Recent traces",
+    "tracesLede": "Two traces have been laid so far, both within the ancient temple precincts of Kyoto.",
+    "viewAll": "View all traces"
+  },
+  "philosophy": {
+    "kicker": "Philosophy",
+    "title": "Signposts for the forecestors",
+    "sections": {
+      "s1": {
+        "title": "Cultural traces",
+        "body": "The Hitotoki Collective leaves cultural traces — signposts for the forecestors who will navigate their own paths in their own times. Each trace is anchored in a multi-dimensional creative space where the moment itself is quintessential."
+      },
+      "s2": {
+        "title": "The moment is quintessential",
+        "body": "Painting, music, film, photography and movement converge in live multimedia performances staged in sacred places, such as the ancient temples of Kyoto, where time opens onto a primordial timelessness. Nothing is rehearsed into permanence; what matters is what happens once."
+      },
+      "s3": {
+        "title": "A counter-intuitive economics",
+        "body": "The Collective takes a counter-intuitive approach to the economics of culture. Funded by sponsors in tune with the spirit of the project, the analog fruits of each performance are offered freely to the guardians of the places that receive them."
+      },
+      "s4": {
+        "title": "The guardians",
+        "body": "Each offering is made as a mark of profound and joyful respect — yet it would be remiss not to declare a second motive: the belief that these guardians offer the best assurance that the signposts will withstand the vicissitudes of history."
+      }
+    }
+  },
+  "performances": {
+    "kicker": "The archive",
+    "title": "Traces",
+    "lede": "Each performance is recorded in the archive as a trace — numbered, placed, and given away. Two traces have been laid so far, both in Kyoto.",
+    "viewTrace": "View this trace",
+    "archiveLabel": "Archive code",
+    "locationLabel": "Place",
+    "kyoto": "Kyoto, Japan"
+  },
+  "performance": {
+    "ordinal1": "First performance",
+    "ordinal2": "Second performance",
+    "settingTitle": "The setting",
+    "settingBody": "Staged within a sacred precinct of Kyoto, among structures that have kept their vigil for centuries. Time there opens onto a primordial timelessness, and the performance enters it for the span of a single evening.",
+    "elementsTitle": "The elements",
+    "elementsLine": "Painting, music, film, photography and movement — converging live, unrepeatable, in a single moment.",
+    "offeringTitle": "The offering",
+    "offeringBody": "The analog fruits of this performance were offered freely to the guardians of the place, as a mark of profound and joyful respect — and in the belief that such guardians offer the best assurance that the trace will withstand the vicissitudes of history.",
+    "archiveNote": "Moving-image documentation of this trace is held in the Collective's archive.",
+    "back": "Return to the traces"
+  },
+  "patronage": {
+    "kicker": "Patronage",
+    "title": "Sponsors and guardians",
+    "lede": "The Collective is funded by sponsors in tune with the spirit of the project. The fruits of each performance are not sold; they are given.",
+    "sponsorsTitle": "Sponsors",
+    "sponsorsBody": "Sponsorship is an act of alignment rather than exchange. Sponsors make each performance possible and, in doing so, enter the lineage of the trace it leaves behind.",
+    "guardiansTitle": "Guardians",
+    "guardiansBody": "The guardians — keepers of the sacred places that host each performance — receive the offerings and carry them forward through time, as they have carried so much else.",
+    "correspondenceTitle": "Correspondence",
+    "correspondenceBody": "Introductions travel by word of mouth, through the sponsors and guardians of the Collective. If the spirit of the project speaks to you, you will find your way to us."
+  },
+  "footer": {
+    "tagline": "Touching the heart.",
+    "origin": "Born in Switzerland, bred in Japan, coming of age everywhere.",
+    "rights": "© {year} Hitotoki Collective"
+  },
+  "notFound": {
+    "title": "This path leaves no trace",
+    "body": "The page you seek does not exist — or has dissolved back into the moment.",
+    "back": "Return to the beginning"
+  }
+}

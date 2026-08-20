@@ -1,0 +1,36 @@
+# Hitotoki Collective
+
+> The Hitotoki Collective ("hitotoki" — 一時 — a moment) leaves cultural traces:
+> live multimedia performances of painting, music, film, photography and
+> movement, staged in sacred places such as the ancient temples of Kyoto.
+> The analog fruits of each performance are offered freely to the guardians of
+> those places, as signposts for the forecestors who will navigate their own
+> paths in their own times.
+
+The Collective is funded by sponsors in tune with the spirit of the project;
+the fruits of each performance are given, not sold. The project was born in
+Switzerland, bred in Japan, and is coming of age everywhere.
+
+The site is available in English (/en), Japanese (/ja), French (/fr),
+Arabic (/ar), Spanish (/es) and Chinese (/zh).
+
+## Pages
+
+- [Home](/en): Overview of the Collective and its recent traces.
+- [Philosophy](/en/philosophy): Why the moment is quintessential, and the
+  counter-intuitive economics of offering each performance's fruits to the
+  guardians of sacred places.
+- [Traces](/en/performances): The archive of performances. Each trace is
+  numbered and placed (e.g. 01-JP-KYO — first performance, Kyoto, Japan).
+- [Trace 01-JP-KYO](/en/performances/01-jp-kyo): First performance, Kyoto.
+- [Trace 02-JP-KYO](/en/performances/02-jp-kyo): Second performance, Kyoto.
+- [Patronage](/en/patronage): The roles of sponsors and guardians, and how
+  introductions to the Collective travel.
+
+## Terms of art
+
+- "Trace": a performance and what remains of it, recorded in the archive.
+- "Guardians": keepers of the sacred places that host and receive each
+  performance's offerings.
+- "Forecestors": those who come after — future generations regarded as
+  ancestors-to-be.
