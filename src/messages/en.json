@@ -108,7 +108,17 @@
     "offeringTitle": "The offering",
     "offeringBody": "The analog fruits of this performance were offered freely to the guardians of the place, as a mark of profound and joyful respect — and in the belief that such guardians offer the best assurance that the trace will withstand the vicissitudes of history.",
     "archiveNote": "Moving-image documentation of this trace is held in the Collective's archive.",
+    "photosTitle": "Photographs",
     "back": "Return to the traces"
+  },
+  "photoAlts": {
+    "01-jp-kyo": {
+      "p0": "An ink painting of a dragon, rearing in a storm of brushstrokes, standing on canvas in a Kyoto temple garden beside a pond and a stone lantern.",
+      "p1": "The dragon painting standing on a black cloth at the pond's edge, surrounded by brushes, an ink vessel and the garden's pines."
+    },
+    "02-jp-kyo": {
+      "p0": "A large painting of a fox in vermilion and black ink, flanked by calligraphy, hung above the wooden steps of a temple hall; the artist sits below it in dark robes."
+    }
   },
   "patronage": {
     "kicker": "Patronage",

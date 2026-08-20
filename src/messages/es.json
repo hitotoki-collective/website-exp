@@ -108,7 +108,17 @@
     "offeringTitle": "La ofrenda",
     "offeringBody": "Los frutos analógicos de esta performance fueron ofrecidos libremente a los guardianes del lugar, como señal de un respeto profundo y gozoso, y con la convicción de que tales guardianes ofrecen la mejor garantía de que la huella resistirá las vicisitudes de la historia.",
     "archiveNote": "La documentación audiovisual de esta huella se conserva en el archivo del Colectivo.",
+    "photosTitle": "Fotografías",
     "back": "Volver a las huellas"
+  },
+  "photoAlts": {
+    "01-jp-kyo": {
+      "p0": "Una pintura a tinta de un dragón encabritado en una tormenta de pinceladas, erguida sobre lienzo en un jardín de templo de Kioto, junto a un estanque y una linterna de piedra.",
+      "p1": "La pintura del dragón sobre una tela negra a la orilla del estanque, rodeada de pinceles, un recipiente de tinta y los pinos del jardín."
+    },
+    "02-jp-kyo": {
+      "p0": "Una gran pintura de un zorro en tinta bermellón y negra, junto a caligrafía, colgada sobre los escalones de madera de una sala del templo; el artista está sentado debajo, con ropas oscuras."
+    }
   },
   "patronage": {
     "kicker": "Mecenazgo",

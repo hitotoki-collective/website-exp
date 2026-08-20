@@ -24,12 +24,20 @@ export function canonicalFor(locale: Locale | string, path: string): string {
   return `${siteUrl}/${locale}${suffix}`;
 }
 
+type OgImage = {
+  url: string;
+  width?: number;
+  height?: number;
+  alt?: string;
+};
+
 type PageMeta = {
   locale: string;
   path: string;
   title: string;
   description: string;
   siteName: string;
+  images?: OgImage[];
 };
 
 export function pageMetadata({
@@ -37,7 +45,8 @@ export function pageMetadata({
   path,
   title,
   description,
-  siteName
+  siteName,
+  images
 }: PageMeta): Metadata {
   const canonical = canonicalFor(locale, path);
   const alternates = alternatesFor(path);
@@ -51,7 +60,8 @@ export function pageMetadata({
       title,
       description,
       url: canonical,
-      locale
+      locale,
+      ...(images ? { images } : {})
     },
     twitter: {
       card: "summary_large_image",

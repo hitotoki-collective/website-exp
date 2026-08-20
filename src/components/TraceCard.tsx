@@ -1,14 +1,30 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Performance } from "@/lib/performances";
+import { getPhotos } from "@/lib/performance-images";
 import Seal from "./Seal";
 
 export default async function TraceCard({ trace }: { trace: Performance }) {
   const tPerf = await getTranslations("performances");
   const tOne = await getTranslations("performance");
+  const [cover] = getPhotos(trace.slug);
+  const tAlts = cover
+    ? await getTranslations(`photoAlts.${trace.slug}`)
+    : null;
 
   return (
     <article className="trace-card">
+      {cover && tAlts && (
+        <div className="trace-card__photo">
+          <Image
+            src={cover.image}
+            alt={tAlts(cover.altKey)}
+            sizes="(min-width: 48rem) 50vw, 100vw"
+            placeholder="blur"
+          />
+        </div>
+      )}
       <Seal className="trace-card__seal" />
       <p className="trace-card__code" aria-label={`${tPerf("archiveLabel")}: ${trace.code}`}>
         {trace.code.replaceAll("-", " · ")}

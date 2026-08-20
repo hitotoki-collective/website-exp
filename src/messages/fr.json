@@ -108,7 +108,17 @@
     "offeringTitle": "L'offrande",
     "offeringBody": "Les fruits analogiques de cette performance ont été offerts librement aux gardiens du lieu, en signe de respect profond et joyeux — et dans la conviction que de tels gardiens offrent la meilleure assurance que la trace résistera aux vicissitudes de l'histoire.",
     "archiveNote": "La documentation filmée de cette trace est conservée dans l'archive du Collectif.",
+    "photosTitle": "Photographies",
     "back": "Retourner aux traces"
+  },
+  "photoAlts": {
+    "01-jp-kyo": {
+      "p0": "Une peinture à l'encre d'un dragon cabré dans une tempête de coups de pinceau, dressée sur toile dans un jardin de temple de Kyoto, près d'un étang et d'une lanterne de pierre.",
+      "p1": "La peinture du dragon dressée sur un tissu noir au bord de l'étang, entourée de pinceaux, d'un pot d'encre et des pins du jardin."
+    },
+    "02-jp-kyo": {
+      "p0": "Une grande peinture d'un renard à l'encre vermillon et noire, accompagnée de calligraphie, suspendue au-dessus des marches de bois d'une salle de temple ; l'artiste est assis en dessous, en habit sombre."
+    }
   },
   "patronage": {
     "kicker": "Mécénat",
