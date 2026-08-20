@@ -113,7 +113,7 @@ export default async function PerformancePage({ params }: Props) {
 
       {photos.length > 0 && tAlts && (
         <section className="wrap section" aria-labelledby="photos-title">
-          <h2 id="photos-title" className="title">
+          <h2 id="photos-title" className="gallery-title">
             {t("photosTitle")}
           </h2>
           <div

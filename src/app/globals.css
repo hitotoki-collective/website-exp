@@ -7,7 +7,7 @@
   --paper-deep: #ede6d6;
   --ink: #1d1a17;
   --ink-soft: #5b544b;
-  --ink-faint: #8a8177;
+  --ink-faint: #6e675d;
   --vermilion: #a83c25;
   --vermilion-soft: #b8593f;
   --gold: #96793d;
@@ -27,7 +27,7 @@
     --paper-deep: #1e1a15;
     --ink: #e9e2d4;
     --ink-soft: #b0a696;
-    --ink-faint: #7c7466;
+    --ink-faint: #8d8577;
     --vermilion: #c9603f;
     --vermilion-soft: #d47a5c;
     --gold: #b3935a;
@@ -276,6 +276,35 @@ h3 {
   border-block-end-color: var(--vermilion);
 }
 
+/* Compact, non-sticky header on small screens: two tight rows that
+   scroll away with the page instead of pinning ~180px of chrome. */
+@media (max-width: 47.9375rem) {
+  .site-header {
+    position: static;
+  }
+
+  .site-header__inner {
+    gap: 0.4rem 1rem;
+    padding-block: 0.65rem;
+  }
+
+  .wordmark__latin {
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+  }
+
+  .site-nav {
+    margin-inline-start: 0;
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  .site-nav a {
+    padding-block: 0.8rem;
+  }
+
+}
+
 /* ------------------------------------------------------------------ */
 /*  Locale switcher                                                    */
 /* ------------------------------------------------------------------ */
@@ -331,6 +360,22 @@ h3 {
 
 .locale-switcher__menu a[aria-current="true"] {
   color: var(--vermilion);
+}
+
+@media (max-width: 47.9375rem) {
+  .locale-switcher {
+    margin-inline-start: auto;
+  }
+
+  .locale-switcher summary {
+    padding: 0.7rem 0.9rem;
+  }
+
+  /* The 文A glyph is a nicety; on narrow screens the language name alone
+     keeps the wordmark and switcher on one row */
+  .locale-switcher summary span[aria-hidden] {
+    display: none;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -428,11 +473,20 @@ h3 {
   .elements {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* Five items in two columns: let the last span the row rather than orphan */
+  .element:last-child {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (min-width: 64rem) {
   .elements {
     grid-template-columns: repeat(5, 1fr);
+  }
+
+  .element:last-child {
+    grid-column: auto;
   }
 }
 
@@ -647,6 +701,12 @@ h3 {
 [lang="ar"] .trace-hero__meta dt {
   text-transform: none;
   letter-spacing: 0.15em;
+}
+
+/* Matches the numbered-section headings so the gallery reads as a peer
+   section rather than shouting over them */
+.gallery-title {
+  font-size: 1.5rem;
 }
 
 .photo-grid {

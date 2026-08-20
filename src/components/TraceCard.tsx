@@ -2,13 +2,13 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Performance } from "@/lib/performances";
-import { getPhotos } from "@/lib/performance-images";
+import { getCover } from "@/lib/performance-images";
 import Seal from "./Seal";
 
 export default async function TraceCard({ trace }: { trace: Performance }) {
   const tPerf = await getTranslations("performances");
   const tOne = await getTranslations("performance");
-  const [cover] = getPhotos(trace.slug);
+  const cover = getCover(trace.slug);
   const tAlts = cover
     ? await getTranslations(`photoAlts.${trace.slug}`)
     : null;
@@ -35,7 +35,11 @@ export default async function TraceCard({ trace }: { trace: Performance }) {
         <dt>{tPerf("locationLabel")}</dt>
         <dd>{tPerf("kyoto")}</dd>
       </dl>
-      <Link href={`/performances/${trace.slug}`} className="trace-card__link">
+      <Link
+        href={`/performances/${trace.slug}`}
+        className="trace-card__link"
+        aria-label={`${tPerf("viewTrace")} — ${trace.code}`}
+      >
         {tPerf("viewTrace")}
       </Link>
     </article>

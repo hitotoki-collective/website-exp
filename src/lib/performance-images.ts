@@ -22,3 +22,16 @@ export const photosBySlug: Record<string, TracePhoto[]> = {
 export function getPhotos(slug: string): TracePhoto[] {
   return photosBySlug[slug] ?? [];
 }
+
+/**
+ * Which photo fronts the trace's archive card. 01's portrait canvas crops
+ * badly to the card's 3:2 ratio, so its landscape garden shot is used.
+ */
+const coverIndexBySlug: Record<string, number> = {
+  "01-jp-kyo": 1
+};
+
+export function getCover(slug: string): TracePhoto | undefined {
+  const photos = getPhotos(slug);
+  return photos[coverIndexBySlug[slug] ?? 0];
+}
