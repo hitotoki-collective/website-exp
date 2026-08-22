@@ -6,6 +6,7 @@ import {
   Amiri,
   Cormorant_Garamond,
   EB_Garamond,
+  Noto_Serif_Devanagari,
   Noto_Serif_SC,
   Shippori_Mincho
 } from "next/font/google";
@@ -55,6 +56,13 @@ const notoSerifSc = Noto_Serif_SC({
   preload: false
 });
 
+const notoSerifDevanagari = Noto_Serif_Devanagari({
+  subsets: ["devanagari", "latin"],
+  weight: ["400", "500", "700"],
+  display: "swap",
+  preload: false
+});
+
 const amiri = Amiri({
   subsets: ["arabic", "latin"],
   weight: ["400", "700"],
@@ -75,7 +83,8 @@ const fontsByLocale: Record<Locale, FontPair> = {
   ja: { display: shippori, body: shippori },
   zh: { display: notoSerifSc, body: notoSerifSc },
   ar: { display: amiri, body: amiri },
-  ru: { display: cormorantCyrillic, body: garamondCyrillic }
+  ru: { display: cormorantCyrillic, body: garamondCyrillic },
+  hi: { display: notoSerifDevanagari, body: notoSerifDevanagari }
 };
 
 export function generateStaticParams() {
