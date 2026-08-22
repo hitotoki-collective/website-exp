@@ -13,7 +13,7 @@ Switzerland, bred in Japan, and is coming of age everywhere.
 
 The site is available in English (/en), Japanese (/ja), French (/fr),
 Arabic (/ar), Spanish (/es), Chinese (/zh), Russian (/ru),
-Portuguese (/pt) and Hindi (/hi).
+Portuguese (/pt), Hindi (/hi) and Korean (/ko).
 
 ## Pages
 
