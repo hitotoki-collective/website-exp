@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "siteName": "Hitotoki Collective",
+    "description": "Das Hitotoki Collective hinterlässt kulturelle Spuren — live aufgeführte multimediale Performances aus Malerei, Musik, Film, Fotografie und Bewegung, dargeboten an heiligen Orten und deren Hütern frei geschenkt.",
+    "pages": {
+      "home": {
+        "title": "Hitotoki Collective — Spuren des Augenblicks",
+        "description": "Live aufgeführte multimediale Kunstperformances an heiligen Orten. Malerei, Musik, Film, Fotografie und Bewegung finden in einem einzigen, unwiederholbaren Augenblick zusammen."
+      },
+      "philosophy": {
+        "title": "Philosophie",
+        "description": "Wegmarken für die kommenden Ahnen: warum das Hitotoki Collective unwiederholbare Performances an heiligen Orten aufführt und ihre Früchte verschenkt."
+      },
+      "performances": {
+        "title": "Spuren",
+        "description": "Das Archiv der Spuren des Hitotoki Collective — live aufgeführte multimediale Performances in den alten Tempeln von Kyoto."
+      },
+      "patronage": {
+        "title": "Mäzenatentum",
+        "description": "Mäzene und Hüter: die gegenläufige Ökonomie des Hitotoki Collective."
+      },
+      "performance": {
+        "title": "Spur {code}",
+        "description": "Spur {code} — eine live aufgeführte multimediale Performance des Hitotoki Collective, dargeboten in Kyoto, Japan, und den Hütern des Ortes geschenkt."
+      }
+    }
+  },
+  "nav": {
+    "home": "Start",
+    "philosophy": "Philosophie",
+    "performances": "Spuren",
+    "patronage": "Mäzenatentum",
+    "skipToContent": "Zum Inhalt springen",
+    "mainLabel": "Hauptnavigation",
+    "languageLabel": "Sprache"
+  },
+  "home": {
+    "kicker": "Hitotoki · 一時 · ein Augenblick",
+    "heroTitle": "Spuren eines Augenblicks, hinterlassen für jene, die noch kommen.",
+    "heroLede": "Malerei, Musik, Film, Fotografie und Bewegung finden in Live-Performances zusammen, aufgeführt an heiligen Orten — den alten Tempeln von Kyoto —, wo die Zeit sich einer ursprünglichen Zeitlosigkeit öffnet. Was bleibt, wird den Hütern dieser Orte frei geschenkt.",
+    "ctaTraces": "Die Spuren betreten",
+    "ctaPhilosophy": "Die Philosophie lesen",
+    "videoPlay": "Film abspielen",
+    "videoPause": "Film anhalten",
+    "videoUnmute": "Ton einschalten",
+    "videoMute": "Ton ausschalten",
+    "elementsTitle": "Fünf Elemente, ein Augenblick",
+    "elements": {
+      "painting": {
+        "name": "Malerei",
+        "line": "Tusche und Pigment antworten dem Augenblick, während er sich entfaltet."
+      },
+      "music": {
+        "name": "Musik",
+        "line": "Klang steigt auf und löst sich in der Luft des Tempels."
+      },
+      "film": {
+        "name": "Film",
+        "line": "Licht in Bewegung, eingefangen im Vorübergehen."
+      },
+      "photography": {
+        "name": "Fotografie",
+        "line": "Der Augenblick festgehalten, ohne angehalten zu werden."
+      },
+      "movement": {
+        "name": "Bewegung",
+        "line": "Der Körper zeichnet die Zeit in den Raum."
+      }
+    },
+    "tracesTitle": "Jüngste Spuren",
+    "tracesLede": "Zwei Spuren wurden bislang gelegt, beide in den alten Tempelbezirken von Kyoto.",
+    "viewAll": "Alle Spuren ansehen"
+  },
+  "philosophy": {
+    "kicker": "Philosophie",
+    "title": "Wegmarken für die kommenden Ahnen",
+    "sections": {
+      "s1": {
+        "title": "Kulturelle Spuren",
+        "body": "Das Hitotoki Collective hinterlässt kulturelle Spuren — Wegmarken für die kommenden Ahnen, die in ihren eigenen Zeiten ihre eigenen Wege gehen werden. Jede Spur ist in einem vieldimensionalen Schöpfungsraum verankert, in dem der Augenblick selbst das Wesentliche ist."
+      },
+      "s2": {
+        "title": "Der Augenblick ist das Wesentliche",
+        "body": "Malerei, Musik, Film, Fotografie und Bewegung finden in live aufgeführten multimedialen Performances an heiligen Orten zusammen — wie den alten Tempeln von Kyoto —, wo die Zeit sich einer ursprünglichen Zeitlosigkeit öffnet. Nichts wird auf Dauer geprobt; was zählt, ist, was nur einmal geschieht."
+      },
+      "s3": {
+        "title": "Eine gegenläufige Ökonomie",
+        "body": "Das Collective begegnet der Ökonomie der Kultur gegen den Strom. Getragen von Mäzenen, die dem Geist des Projekts verbunden sind, werden die analogen Früchte jeder Performance den Hütern der Orte, die sie empfangen, frei geschenkt."
+      },
+      "s4": {
+        "title": "Die Hüter",
+        "body": "Jede Gabe ist ein Zeichen tiefer und freudiger Ehrerbietung — doch es wäre unaufrichtig, ein zweites Motiv zu verschweigen: die Überzeugung, dass diese Hüter die beste Gewähr dafür bieten, dass die Wegmarken den Wechselfällen der Geschichte standhalten."
+      }
+    }
+  },
+  "performances": {
+    "kicker": "Das Archiv",
+    "title": "Spuren",
+    "lede": "Jede Performance wird im Archiv als Spur verzeichnet — nummeriert, verortet und verschenkt. Zwei Spuren wurden bislang gelegt, beide in Kyoto.",
+    "viewTrace": "Diese Spur ansehen",
+    "archiveLabel": "Archivcode",
+    "locationLabel": "Ort",
+    "kyoto": "Kyoto, Japan"
+  },
+  "performance": {
+    "ordinal1": "Erste Performance",
+    "ordinal2": "Zweite Performance",
+    "settingTitle": "Der Ort",
+    "settingBody": "Aufgeführt in einem heiligen Bezirk von Kyoto, zwischen Bauten, die seit Jahrhunderten Wache halten. Die Zeit öffnet sich dort einer ursprünglichen Zeitlosigkeit, und die Performance tritt für die Dauer eines einzigen Abends in sie ein.",
+    "elementsTitle": "Die Elemente",
+    "elementsLine": "Malerei, Musik, Film, Fotografie und Bewegung — live zusammenfindend, unwiederholbar, in einem einzigen Augenblick.",
+    "offeringTitle": "Die Gabe",
+    "offeringBody": "Die analogen Früchte dieser Performance wurden den Hütern des Ortes frei geschenkt — als Zeichen tiefer und freudiger Ehrerbietung und in der Überzeugung, dass solche Hüter die beste Gewähr dafür bieten, dass die Spur den Wechselfällen der Geschichte standhält.",
+    "archiveNote": "Die filmische Dokumentation dieser Spur wird im Archiv des Collective bewahrt.",
+    "photosTitle": "Fotografien",
+    "back": "Zurück zu den Spuren"
+  },
+  "photoAlts": {
+    "01-jp-kyo": {
+      "p0": "Ein Tuschebild eines Drachen, der sich in einem Sturm von Pinselstrichen aufbäumt, aufgestellt auf Leinwand in einem Tempelgarten von Kyoto, neben einem Teich und einer Steinlaterne.",
+      "p1": "Das Drachenbild auf schwarzem Tuch am Rand des Teichs, umgeben von Pinseln, einem Tuschegefäß und den Kiefern des Gartens."
+    },
+    "02-jp-kyo": {
+      "p0": "Ein großes Bild eines Fuchses in zinnoberroter und schwarzer Tusche, flankiert von Kalligrafie, aufgehängt über den Holzstufen einer Tempelhalle; darunter sitzt der Künstler in dunkler Kleidung."
+    }
+  },
+  "patronage": {
+    "kicker": "Mäzenatentum",
+    "title": "Mäzene und Hüter",
+    "lede": "Das Collective wird von Mäzenen getragen, die dem Geist des Projekts verbunden sind. Die Früchte der Performances werden nicht verkauft; sie werden verschenkt.",
+    "sponsorsTitle": "Mäzene",
+    "sponsorsBody": "Mäzenatentum ist ein Akt des Gleichklangs, nicht des Tausches. Mäzene machen jede Performance möglich und treten damit in die Ahnenreihe der Spur ein, die sie hinterlässt.",
+    "guardiansTitle": "Hüter",
+    "guardiansBody": "Die Hüter — Bewahrer der heiligen Orte, die jede Performance empfangen — nehmen die Gaben an und tragen sie durch die Zeit, wie sie schon so vieles getragen haben.",
+    "correspondenceTitle": "Korrespondenz",
+    "correspondenceBody": "Empfehlungen wandern von Mund zu Mund, über die Mäzene und Hüter des Collective. Wenn der Geist des Projekts zu Ihnen spricht, werden Sie Ihren Weg zu uns finden."
+  },
+  "footer": {
+    "tagline": "Das Herz berühren.",
+    "origin": "Geboren in der Schweiz, aufgewachsen in Japan, heranreifend überall.",
+    "rights": "© {year} Hitotoki Collective"
+  },
+  "notFound": {
+    "title": "Dieser Weg hinterlässt keine Spur",
+    "body": "Die Seite, die Sie suchen, existiert nicht — oder hat sich in den Augenblick zurück aufgelöst.",
+    "back": "Zum Anfang zurückkehren"
+  }
+}
