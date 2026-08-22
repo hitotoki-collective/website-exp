@@ -7,7 +7,7 @@ import { locales } from "@/i18n/routing";
 import { getPerformance, performances } from "@/lib/performances";
 import { getPhotos } from "@/lib/performance-images";
 import { canonicalFor, pageMetadata } from "@/lib/seo";
-import { siteName } from "@/lib/site";
+import { siteName, siteUrl } from "@/lib/site";
 import Seal from "@/components/Seal";
 
 type Props = {
@@ -18,6 +18,15 @@ export function generateStaticParams() {
   return locales.flatMap((locale) =>
     performances.map((p) => ({ locale, slug: p.slug }))
   );
+}
+
+/**
+ * Static-import srcs already carry the base path, so absolute URLs must be
+ * built from the origin alone — resolving them against siteUrl would double
+ * the base path.
+ */
+function absoluteAssetUrl(src: string): string {
+  return new URL(src, new URL(siteUrl).origin).toString();
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -37,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t("pages.performance.description", { code: trace.code }),
     siteName,
     images: photos.map((p) => ({
-      url: p.image.src,
+      url: absoluteAssetUrl(p.image.src),
       width: p.image.width,
       height: p.image.height,
       alt: tAlts ? tAlts(p.altKey) : undefined
@@ -77,7 +86,7 @@ export default async function PerformancePage({ params }: Props) {
       }
     },
     genre: ["Painting", "Music", "Film", "Photography", "Movement"],
-    image: photos.map((p) => p.image.src)
+    image: photos.map((p) => absoluteAssetUrl(p.image.src))
   };
 
   const sections = [

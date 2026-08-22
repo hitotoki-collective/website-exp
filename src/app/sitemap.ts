@@ -3,6 +3,8 @@ import { locales } from "@/i18n/routing";
 import { performances } from "@/lib/performances";
 import { siteUrl } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 const paths = [
   "/",
   "/philosophy",

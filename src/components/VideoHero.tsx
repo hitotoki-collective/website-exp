@@ -10,6 +10,9 @@ import { Link } from "@/i18n/navigation";
  * prefers-reduced-motion get the poster frame instead, and a pause control
  * satisfies WCAG 2.2.2 for auto-playing motion.
  */
+// Raw media elements don't get the Next basePath automatically.
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function VideoHero() {
   const t = useTranslations("home");
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -48,11 +51,11 @@ export default function VideoHero() {
         preload="metadata"
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
-        poster="/media/hero-poster.jpg"
+        poster={`${basePath}/media/hero-poster.jpg`}
         aria-hidden="true"
         tabIndex={-1}
       >
-        <source src="/media/hero.mp4" type="video/mp4" />
+        <source src={`${basePath}/media/hero.mp4`} type="video/mp4" />
       </video>
       <div className="vhero__scrim" aria-hidden="true" />
       <div className="wrap vhero__content">
