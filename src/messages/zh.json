@@ -42,6 +42,8 @@
     "ctaPhilosophy": "阅读理念",
     "videoPlay": "播放影片",
     "videoPause": "暂停影片",
+    "videoUnmute": "开启声音",
+    "videoMute": "关闭声音",
     "elementsTitle": "五种元素，同一瞬间",
     "elements": {
       "painting": {

@@ -42,6 +42,8 @@
     "ctaPhilosophy": "理念を読む",
     "videoPlay": "映像を再生",
     "videoPause": "映像を一時停止",
+    "videoUnmute": "音声をオンにする",
+    "videoMute": "音声をオフにする",
     "elementsTitle": "五つの要素、一つの瞬間",
     "elements": {
       "painting": {

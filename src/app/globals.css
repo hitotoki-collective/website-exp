@@ -466,11 +466,16 @@ h3 {
   color: #1d1a17;
 }
 
-.vhero__toggle {
+.vhero__controls {
   position: absolute;
   z-index: 2;
   inset-block-end: 1.4rem;
   inset-inline-end: 1.4rem;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.vhero__toggle {
   inline-size: 2.9rem;
   block-size: 2.9rem;
   border-radius: 50%;

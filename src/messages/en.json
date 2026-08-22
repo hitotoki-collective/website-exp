@@ -42,6 +42,8 @@
     "ctaPhilosophy": "Read the philosophy",
     "videoPlay": "Play the film",
     "videoPause": "Pause the film",
+    "videoUnmute": "Turn sound on",
+    "videoMute": "Turn sound off",
     "elementsTitle": "Five elements, one moment",
     "elements": {
       "painting": {

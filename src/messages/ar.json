@@ -42,6 +42,8 @@
     "ctaPhilosophy": "اقرأ الفلسفة",
     "videoPlay": "تشغيل الفيلم",
     "videoPause": "إيقاف الفيلم مؤقتًا",
+    "videoUnmute": "تشغيل الصوت",
+    "videoMute": "كتم الصوت",
     "elementsTitle": "خمسة عناصر، لحظة واحدة",
     "elements": {
       "painting": {

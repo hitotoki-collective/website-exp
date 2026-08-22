@@ -42,6 +42,8 @@
     "ctaPhilosophy": "Lire la philosophie",
     "videoPlay": "Lire le film",
     "videoPause": "Mettre le film en pause",
+    "videoUnmute": "Activer le son",
+    "videoMute": "Couper le son",
     "elementsTitle": "Cinq éléments, un seul instant",
     "elements": {
       "painting": {
