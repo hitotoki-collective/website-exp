@@ -5,6 +5,10 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { locales, localeNames } from "@/i18n/routing";
 
+// The routing array grows in the order languages were added; the menu
+// reads better in a stable order, so sort by locale code.
+const menuLocales = [...locales].sort();
+
 export default function LocaleSwitcher() {
   const t = useTranslations("nav");
   const locale = useLocale();
@@ -47,7 +51,7 @@ export default function LocaleSwitcher() {
         <span>{localeNames[locale as keyof typeof localeNames] ?? locale}</span>
       </summary>
       <nav className="locale-switcher__menu" aria-label={t("languageLabel")}>
-        {locales.map((l) => (
+        {menuLocales.map((l) => (
           <Link
             key={l}
             href={pathname}

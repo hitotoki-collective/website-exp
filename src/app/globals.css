@@ -338,11 +338,13 @@ h3 {
   position: absolute;
   inset-inline-end: 0;
   top: calc(100% + 0.5rem);
-  min-inline-size: 10rem;
+  min-inline-size: 16rem;
   background: var(--paper);
   border: 1px solid var(--line);
   padding: 0.4rem;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.4rem;
   z-index: 60;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
 }
@@ -351,6 +353,7 @@ h3 {
   padding: 0.45rem 0.7rem;
   font-size: 0.95rem;
   color: var(--ink-soft);
+  white-space: nowrap;
 }
 
 .locale-switcher__menu a:hover {
