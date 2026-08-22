@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "siteName": "Hitotoki Collective",
+    "description": "L'Hitotoki Collective lascia tracce culturali — performance multimediali dal vivo di pittura, musica, cinema, fotografia e movimento, allestite in luoghi sacri e offerte liberamente ai loro custodi.",
+    "pages": {
+      "home": {
+        "title": "Hitotoki Collective — tracce dell'istante",
+        "description": "Performance artistiche multimediali dal vivo in luoghi sacri. Pittura, musica, cinema, fotografia e movimento convergono in un unico istante irripetibile."
+      },
+      "philosophy": {
+        "title": "Filosofia",
+        "description": "Segnavia per gli antenati a venire: perché l'Hitotoki Collective allestisce performance irripetibili in luoghi sacri e ne dona i frutti."
+      },
+      "performances": {
+        "title": "Tracce",
+        "description": "L'archivio delle tracce lasciate dall'Hitotoki Collective — performance multimediali dal vivo allestite negli antichi templi di Kyoto."
+      },
+      "patronage": {
+        "title": "Mecenatismo",
+        "description": "Mecenati e custodi: l'economia controcorrente dell'Hitotoki Collective."
+      },
+      "performance": {
+        "title": "Traccia {code}",
+        "description": "Traccia {code} — una performance multimediale dal vivo dell'Hitotoki Collective, allestita a Kyoto, in Giappone, e offerta ai custodi del luogo."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "philosophy": "Filosofia",
+    "performances": "Tracce",
+    "patronage": "Mecenatismo",
+    "skipToContent": "Vai al contenuto",
+    "mainLabel": "Navigazione principale",
+    "languageLabel": "Lingua"
+  },
+  "home": {
+    "kicker": "Hitotoki · 一時 · un istante",
+    "heroTitle": "Tracce di un istante, lasciate a chi verrà.",
+    "heroLede": "Pittura, musica, cinema, fotografia e movimento convergono in performance dal vivo allestite in luoghi sacri — gli antichi templi di Kyoto — dove il tempo si apre a un'atemporalità primordiale. Ciò che resta è offerto liberamente ai custodi di quei luoghi.",
+    "ctaTraces": "Entra nelle tracce",
+    "ctaPhilosophy": "Leggi la filosofia",
+    "videoPlay": "Riproduci il film",
+    "videoPause": "Metti in pausa il film",
+    "videoUnmute": "Attiva l'audio",
+    "videoMute": "Disattiva l'audio",
+    "elementsTitle": "Cinque elementi, un solo istante",
+    "elements": {
+      "painting": {
+        "name": "Pittura",
+        "line": "Inchiostro e pigmento rispondono all'istante che si dispiega."
+      },
+      "music": {
+        "name": "Musica",
+        "line": "Il suono si leva e si dissolve nell'aria del tempio."
+      },
+      "film": {
+        "name": "Cinema",
+        "line": "Luce in movimento, raccolta al suo passaggio."
+      },
+      "photography": {
+        "name": "Fotografia",
+        "line": "L'istante trattenuto senza essere fermato."
+      },
+      "movement": {
+        "name": "Movimento",
+        "line": "Il corpo traccia il tempo nello spazio."
+      }
+    },
+    "tracesTitle": "Tracce recenti",
+    "tracesLede": "Due tracce sono state lasciate finora, entrambe nei recinti degli antichi templi di Kyoto.",
+    "viewAll": "Vedi tutte le tracce"
+  },
+  "philosophy": {
+    "kicker": "Filosofia",
+    "title": "Segnavia per gli antenati a venire",
+    "sections": {
+      "s1": {
+        "title": "Tracce culturali",
+        "body": "L'Hitotoki Collective lascia tracce culturali — segnavia per gli antenati a venire, che percorreranno le proprie strade nei propri tempi. Ogni traccia è ancorata a uno spazio creativo multidimensionale in cui l'istante stesso è quintessenziale."
+      },
+      "s2": {
+        "title": "L'istante è quintessenziale",
+        "body": "Pittura, musica, cinema, fotografia e movimento convergono in performance multimediali dal vivo allestite in luoghi sacri, come gli antichi templi di Kyoto, dove il tempo si apre a un'atemporalità primordiale. Nulla viene provato per durare; ciò che conta è ciò che accade una volta sola."
+      },
+      "s3": {
+        "title": "Un'economia controcorrente",
+        "body": "Il Collettivo adotta un approccio controcorrente all'economia della cultura. Sostenuti da mecenati in sintonia con lo spirito del progetto, i frutti analogici di ogni performance sono offerti liberamente ai custodi dei luoghi che li accolgono."
+      },
+      "s4": {
+        "title": "I custodi",
+        "body": "Ogni offerta è fatta in segno di un rispetto profondo e gioioso — ma sarebbe disonesto tacere un secondo motivo: la convinzione che questi custodi offrano la migliore garanzia che i segnavia resisteranno alle vicissitudini della storia."
+      }
+    }
+  },
+  "performances": {
+    "kicker": "L'archivio",
+    "title": "Tracce",
+    "lede": "Ogni performance è registrata nell'archivio come una traccia — numerata, situata e donata. Due tracce sono state lasciate finora, entrambe a Kyoto.",
+    "viewTrace": "Vedi questa traccia",
+    "archiveLabel": "Codice d'archivio",
+    "locationLabel": "Luogo",
+    "kyoto": "Kyoto, Giappone"
+  },
+  "performance": {
+    "ordinal1": "Prima performance",
+    "ordinal2": "Seconda performance",
+    "settingTitle": "Il luogo",
+    "settingBody": "Allestita in un recinto sacro di Kyoto, tra strutture che vegliano da secoli. Lì il tempo si apre a un'atemporalità primordiale, e la performance vi entra per lo spazio di una sola sera.",
+    "elementsTitle": "Gli elementi",
+    "elementsLine": "Pittura, musica, cinema, fotografia e movimento — convergendo dal vivo, irripetibili, in un solo istante.",
+    "offeringTitle": "L'offerta",
+    "offeringBody": "I frutti analogici di questa performance sono stati offerti liberamente ai custodi del luogo, in segno di un rispetto profondo e gioioso — e nella convinzione che tali custodi offrano la migliore garanzia che la traccia resisterà alle vicissitudini della storia.",
+    "archiveNote": "La documentazione filmata di questa traccia è conservata nell'archivio del Collettivo.",
+    "photosTitle": "Fotografie",
+    "back": "Torna alle tracce"
+  },
+  "photoAlts": {
+    "01-jp-kyo": {
+      "p0": "Un dipinto a inchiostro di un drago che si impenna in una tempesta di pennellate, ritto su tela in un giardino di tempio a Kyoto, accanto a uno stagno e a una lanterna di pietra.",
+      "p1": "Il dipinto del drago ritto su un telo nero al bordo dello stagno, circondato da pennelli, un vaso d'inchiostro e i pini del giardino."
+    },
+    "02-jp-kyo": {
+      "p0": "Un grande dipinto di una volpe in inchiostro vermiglio e nero, affiancato da calligrafia, appeso sopra i gradini di legno di una sala del tempio; l'artista siede sotto, in abiti scuri."
+    }
+  },
+  "patronage": {
+    "kicker": "Mecenatismo",
+    "title": "Mecenati e custodi",
+    "lede": "Il Collettivo è sostenuto da mecenati in sintonia con lo spirito del progetto. I frutti di ogni performance non si vendono; si donano.",
+    "sponsorsTitle": "Mecenati",
+    "sponsorsBody": "Il mecenatismo è un atto di sintonia, non di scambio. I mecenati rendono possibile ogni performance e, così facendo, entrano nel lignaggio della traccia che essa lascia.",
+    "guardiansTitle": "Custodi",
+    "guardiansBody": "I custodi — guardiani dei luoghi sacri che accolgono ogni performance — ricevono le offerte e le portano attraverso il tempo, come hanno portato già tanto altro.",
+    "correspondenceTitle": "Corrispondenza",
+    "correspondenceBody": "Le presentazioni viaggiano di bocca in bocca, attraverso i mecenati e i custodi del Collettivo. Se lo spirito del progetto vi parla, troverete la vostra strada fino a noi."
+  },
+  "footer": {
+    "tagline": "Toccare il cuore.",
+    "origin": "Nato in Svizzera, cresciuto in Giappone, in maturazione ovunque.",
+    "rights": "© {year} Hitotoki Collective"
+  },
+  "notFound": {
+    "title": "Questo sentiero non lascia traccia",
+    "body": "La pagina che cercate non esiste — o si è dissolta di nuovo nell'istante.",
+    "back": "Torna all'inizio"
+  }
+}

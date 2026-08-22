@@ -88,6 +88,7 @@ const fontsByLocale: Record<Locale, FontPair> = {
   es: { display: cormorant, body: garamond },
   pt: { display: cormorant, body: garamond },
   de: { display: cormorant, body: garamond },
+  it: { display: cormorant, body: garamond },
   ja: { display: shippori, body: shippori },
   zh: { display: notoSerifSc, body: notoSerifSc },
   ar: { display: amiri, body: amiri },
