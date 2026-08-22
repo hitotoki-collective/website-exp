@@ -12,7 +12,8 @@ the fruits of each performance are given, not sold. The project was born in
 Switzerland, bred in Japan, and is coming of age everywhere.
 
 The site is available in English (/en), Japanese (/ja), French (/fr),
-Arabic (/ar), Spanish (/es), Chinese (/zh) and Russian (/ru).
+Arabic (/ar), Spanish (/es), Chinese (/zh), Russian (/ru) and
+Portuguese (/pt).
 
 ## Pages
 

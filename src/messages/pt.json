@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "siteName": "Hitotoki Collective",
+    "description": "O Hitotoki Collective deixa vestígios culturais — performances multimédia ao vivo de pintura, música, cinema, fotografia e movimento, realizadas em lugares sagrados e oferecidas livremente aos seus guardiões.",
+    "pages": {
+      "home": {
+        "title": "Hitotoki Collective — vestígios do instante",
+        "description": "Performances artísticas multimédia ao vivo em lugares sagrados. Pintura, música, cinema, fotografia e movimento convergem num único instante irrepetível."
+      },
+      "philosophy": {
+        "title": "Filosofia",
+        "description": "Marcos para os ancestrais por vir: por que razão o Hitotoki Collective realiza performances irrepetíveis em lugares sagrados e oferece livremente os seus frutos."
+      },
+      "performances": {
+        "title": "Vestígios",
+        "description": "O arquivo de vestígios deixados pelo Hitotoki Collective — performances multimédia ao vivo realizadas nos templos antigos de Quioto."
+      },
+      "patronage": {
+        "title": "Mecenato",
+        "description": "Mecenas e guardiões: a economia em contracorrente do Hitotoki Collective."
+      },
+      "performance": {
+        "title": "Vestígio {code}",
+        "description": "Vestígio {code} — uma performance multimédia ao vivo do Hitotoki Collective, realizada em Quioto, no Japão, e oferecida aos guardiões do lugar."
+      }
+    }
+  },
+  "nav": {
+    "home": "Início",
+    "philosophy": "Filosofia",
+    "performances": "Vestígios",
+    "patronage": "Mecenato",
+    "skipToContent": "Saltar para o conteúdo",
+    "mainLabel": "Navegação principal",
+    "languageLabel": "Idioma"
+  },
+  "home": {
+    "kicker": "Hitotoki · 一時 · um instante",
+    "heroTitle": "Vestígios de um instante, deixados para os que hão de vir.",
+    "heroLede": "Pintura, música, cinema, fotografia e movimento convergem em performances ao vivo realizadas em lugares sagrados — os templos antigos de Quioto — onde o tempo se abre a uma intemporalidade primordial. O que permanece é oferecido livremente aos guardiões desses lugares.",
+    "ctaTraces": "Entrar nos vestígios",
+    "ctaPhilosophy": "Ler a filosofia",
+    "videoPlay": "Reproduzir o filme",
+    "videoPause": "Pausar o filme",
+    "videoUnmute": "Ativar o som",
+    "videoMute": "Desativar o som",
+    "elementsTitle": "Cinco elementos, um só instante",
+    "elements": {
+      "painting": {
+        "name": "Pintura",
+        "line": "Tinta e pigmento respondem ao instante que se desdobra."
+      },
+      "music": {
+        "name": "Música",
+        "line": "O som ergue-se e dissolve-se no ar do templo."
+      },
+      "film": {
+        "name": "Cinema",
+        "line": "Luz em movimento, recolhida à sua passagem."
+      },
+      "photography": {
+        "name": "Fotografia",
+        "line": "O instante retido sem ser detido."
+      },
+      "movement": {
+        "name": "Movimento",
+        "line": "O corpo traça o tempo no espaço."
+      }
+    },
+    "tracesTitle": "Vestígios recentes",
+    "tracesLede": "Dois vestígios foram deixados até agora, ambos nos recintos dos templos antigos de Quioto.",
+    "viewAll": "Ver todos os vestígios"
+  },
+  "philosophy": {
+    "kicker": "Filosofia",
+    "title": "Marcos para os ancestrais por vir",
+    "sections": {
+      "s1": {
+        "title": "Vestígios culturais",
+        "body": "O Hitotoki Collective deixa vestígios culturais — marcos para os ancestrais por vir, que traçarão os seus próprios caminhos nos seus próprios tempos. Cada vestígio está ancorado num espaço criativo multidimensional onde o próprio instante é quintessencial."
+      },
+      "s2": {
+        "title": "O instante é quintessencial",
+        "body": "Pintura, música, cinema, fotografia e movimento convergem em performances multimédia ao vivo realizadas em lugares sagrados, como os templos antigos de Quioto, onde o tempo se abre a uma intemporalidade primordial. Nada se ensaia para durar; o que importa é o que acontece uma só vez."
+      },
+      "s3": {
+        "title": "Uma economia em contracorrente",
+        "body": "O Coletivo adota uma abordagem em contracorrente à economia da cultura. Financiados por mecenas em sintonia com o espírito do projeto, os frutos analógicos de cada performance são oferecidos livremente aos guardiões dos lugares que os recebem."
+      },
+      "s4": {
+        "title": "Os guardiões",
+        "body": "Cada oferenda é feita como sinal de um respeito profundo e jubiloso — mas seria desonesto não declarar um segundo motivo: a convicção de que estes guardiões oferecem a melhor garantia de que os marcos resistirão às vicissitudes da história."
+      }
+    }
+  },
+  "performances": {
+    "kicker": "O arquivo",
+    "title": "Vestígios",
+    "lede": "Cada performance é registada no arquivo como um vestígio — numerado, situado e dado. Dois vestígios foram deixados até agora, ambos em Quioto.",
+    "viewTrace": "Ver este vestígio",
+    "archiveLabel": "Código de arquivo",
+    "locationLabel": "Lugar",
+    "kyoto": "Quioto, Japão"
+  },
+  "performance": {
+    "ordinal1": "Primeira performance",
+    "ordinal2": "Segunda performance",
+    "settingTitle": "O lugar",
+    "settingBody": "Realizada num recinto sagrado de Quioto, entre estruturas que mantêm a sua vigília há séculos. Ali o tempo abre-se a uma intemporalidade primordial, e a performance entra nela pelo espaço de uma única noite.",
+    "elementsTitle": "Os elementos",
+    "elementsLine": "Pintura, música, cinema, fotografia e movimento — convergindo ao vivo, irrepetíveis, num só instante.",
+    "offeringTitle": "A oferenda",
+    "offeringBody": "Os frutos analógicos desta performance foram oferecidos livremente aos guardiões do lugar, como sinal de um respeito profundo e jubiloso — e na convicção de que tais guardiões oferecem a melhor garantia de que o vestígio resistirá às vicissitudes da história.",
+    "archiveNote": "A documentação filmada deste vestígio conserva-se no arquivo do Coletivo.",
+    "photosTitle": "Fotografias",
+    "back": "Voltar aos vestígios"
+  },
+  "photoAlts": {
+    "01-jp-kyo": {
+      "p0": "Uma pintura a tinta de um dragão empinado numa tempestade de pinceladas, erguida sobre tela num jardim de templo de Quioto, junto a um lago e a uma lanterna de pedra.",
+      "p1": "A pintura do dragão erguida sobre um pano preto à beira do lago, rodeada de pincéis, um vaso de tinta e os pinheiros do jardim."
+    },
+    "02-jp-kyo": {
+      "p0": "Uma grande pintura de uma raposa em tinta vermelhão e preta, ladeada por caligrafia, suspensa sobre os degraus de madeira de um salão do templo; o artista está sentado por baixo, de vestes escuras."
+    }
+  },
+  "patronage": {
+    "kicker": "Mecenato",
+    "title": "Mecenas e guardiões",
+    "lede": "O Coletivo é financiado por mecenas em sintonia com o espírito do projeto. Os frutos de cada performance não se vendem; dão-se.",
+    "sponsorsTitle": "Mecenas",
+    "sponsorsBody": "O mecenato é um ato de sintonia, não de troca. Os mecenas tornam cada performance possível e, ao fazê-lo, entram na linhagem do vestígio que ela deixa.",
+    "guardiansTitle": "Guardiões",
+    "guardiansBody": "Os guardiões — zeladores dos lugares sagrados que acolhem cada performance — recebem as oferendas e levam-nas através do tempo, como já levaram tanta coisa.",
+    "correspondenceTitle": "Correspondência",
+    "correspondenceBody": "As apresentações viajam de boca em boca, através dos mecenas e guardiões do Coletivo. Se o espírito do projeto lhe fala, encontrará o seu caminho até nós."
+  },
+  "footer": {
+    "tagline": "Tocar o coração.",
+    "origin": "Nascido na Suíça, criado no Japão, amadurecendo em toda a parte.",
+    "rights": "© {year} Hitotoki Collective"
+  },
+  "notFound": {
+    "title": "Este caminho não deixa vestígio",
+    "body": "A página que procura não existe — ou dissolveu-se de volta no instante.",
+    "back": "Voltar ao começo"
+  }
+}
