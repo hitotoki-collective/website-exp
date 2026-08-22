@@ -379,7 +379,121 @@ h3 {
 }
 
 /* ------------------------------------------------------------------ */
-/*  Hero                                                               */
+/*  Video hero                                                         */
+/* ------------------------------------------------------------------ */
+
+/* The film always reads dark, so the overlay text uses fixed light
+   values rather than theme tokens. */
+.vhero {
+  position: relative;
+  block-size: calc(100svh - 4.25rem);
+  min-block-size: 36rem;
+  overflow: hidden;
+  background: #14100c;
+}
+
+@media (max-width: 47.9375rem) {
+  .vhero {
+    block-size: calc(100svh - 7.5rem);
+    min-block-size: 30rem;
+  }
+}
+
+.vhero__video {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.vhero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(18, 13, 9, 0.88) 0%,
+    rgba(18, 13, 9, 0.55) 42%,
+    rgba(18, 13, 9, 0.15) 70%,
+    rgba(18, 13, 9, 0.35) 100%
+  );
+}
+
+.vhero__content {
+  position: relative;
+  z-index: 1;
+  block-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-block-end: clamp(2.5rem, 9vh, 5.5rem);
+}
+
+.vhero__kicker {
+  color: #efab84;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+.vhero__title {
+  color: #f7f2e6;
+  font-size: clamp(2.2rem, 5.5vw, 4rem);
+  line-height: 1.12;
+  max-inline-size: 22ch;
+  text-shadow: 0 1px 24px rgba(0, 0, 0, 0.35);
+}
+
+.vhero__lede {
+  color: rgba(247, 242, 230, 0.88);
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+  line-height: 1.75;
+  max-inline-size: 36rem;
+  margin-block-start: 1.25rem;
+  text-shadow: 0 1px 16px rgba(0, 0, 0, 0.35);
+}
+
+.vhero .hero__actions {
+  margin-block-start: 2rem;
+}
+
+.btn--ghost {
+  border-color: rgba(247, 242, 230, 0.65);
+  color: #f7f2e6;
+}
+
+.btn--ghost:hover {
+  background: #f7f2e6;
+  border-color: #f7f2e6;
+  color: #1d1a17;
+}
+
+.vhero__toggle {
+  position: absolute;
+  z-index: 2;
+  inset-block-end: 1.4rem;
+  inset-inline-end: 1.4rem;
+  inline-size: 2.9rem;
+  block-size: 2.9rem;
+  border-radius: 50%;
+  border: 1px solid rgba(247, 242, 230, 0.55);
+  background: rgba(18, 13, 9, 0.5);
+  color: #f7f2e6;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.vhero__toggle svg {
+  inline-size: 1rem;
+  block-size: 1rem;
+}
+
+.vhero__toggle:hover {
+  background: rgba(18, 13, 9, 0.75);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Hero (text variant, kept for reuse)                                */
 /* ------------------------------------------------------------------ */
 
 .hero {

@@ -4,8 +4,8 @@ import { Link } from "@/i18n/navigation";
 import { performances } from "@/lib/performances";
 import { pageMetadata } from "@/lib/seo";
 import { siteName } from "@/lib/site";
-import Enso from "@/components/Enso";
 import TraceCard from "@/components/TraceCard";
+import VideoHero from "@/components/VideoHero";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -40,29 +40,7 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
-      <section className="hero">
-        <p className="hero__vertical" aria-hidden="true">
-          一時 — ひととき
-        </p>
-        <div className="wrap hero__grid">
-          <div>
-            <p className="kicker">{t("kicker")}</p>
-            <h1 className="display">{t("heroTitle")}</h1>
-            <p className="lede" style={{ marginBlockStart: "1.75rem" }}>
-              {t("heroLede")}
-            </p>
-            <div className="hero__actions">
-              <Link href="/performances" className="btn btn--primary">
-                {t("ctaTraces")}
-              </Link>
-              <Link href="/philosophy" className="btn">
-                {t("ctaPhilosophy")}
-              </Link>
-            </div>
-          </div>
-          <Enso animated className="hero__enso" />
-        </div>
-      </section>
+      <VideoHero />
 
       <section className="section" aria-labelledby="elements-title">
         <div className="wrap">
