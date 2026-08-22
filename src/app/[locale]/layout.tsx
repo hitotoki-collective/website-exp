@@ -28,6 +28,20 @@ const garamond = EB_Garamond({
   display: "swap"
 });
 
+const cormorantCyrillic = Cormorant_Garamond({
+  subsets: ["cyrillic", "latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+  preload: false
+});
+
+const garamondCyrillic = EB_Garamond({
+  subsets: ["cyrillic", "latin"],
+  weight: ["400", "500"],
+  display: "swap",
+  preload: false
+});
+
 const shippori = Shippori_Mincho({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -59,7 +73,8 @@ const fontsByLocale: Record<Locale, FontPair> = {
   es: { display: cormorant, body: garamond },
   ja: { display: shippori, body: shippori },
   zh: { display: notoSerifSc, body: notoSerifSc },
-  ar: { display: amiri, body: amiri }
+  ar: { display: amiri, body: amiri },
+  ru: { display: cormorantCyrillic, body: garamondCyrillic }
 };
 
 export function generateStaticParams() {
