@@ -62,4 +62,4 @@ alternates, the sitemap and robots.txt.
 2. The archive pages, sitemap and structured data pick it up automatically.
 
 Note: the performance video masters (multi-GB) are kept outside this repository
-(see `../hitotoki/inputs/`); the site references traces by archive code only.
+(see `../hitotoki/performances/`); the site references traces by archive code only.
