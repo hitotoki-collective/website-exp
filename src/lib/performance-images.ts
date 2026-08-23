@@ -1,9 +1,9 @@
 import type { StaticImageData } from "next/image";
 // Web-sized (1600px) copies; the full-resolution originals remain in
-// assets/events/<CODE>/ as the archive masters.
-import img01a from "../../assets/events/web/01-JP-KYO-0000.jpeg";
-import img01b from "../../assets/events/web/01-JP-KYO-0001.jpeg";
-import img02a from "../../assets/events/web/02-JP-KYO-0000.jpeg";
+// assets/performances/<CODE>/ as the archive masters.
+import img01a from "../../assets/performances/web/01-JP-KYO-0000.jpeg";
+import img01b from "../../assets/performances/web/01-JP-KYO-0001.jpeg";
+import img02a from "../../assets/performances/web/02-JP-KYO-0000.jpeg";
 
 export type TracePhoto = {
   image: StaticImageData;
