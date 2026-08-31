@@ -144,8 +144,3 @@ vite.config.ts.timestamp-*
 
 # macOS
 .DS_Store
-
-
-# Performance assets too big to version control
-assets/performances/01-JP-KYO/01-JP-KYO-VID-000.mp4
-assets/performances/02-JP-KYO/02-JP-KYO-VID-000.mp4

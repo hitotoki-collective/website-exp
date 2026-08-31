@@ -9,13 +9,34 @@ Location: Kyoto
 
 ## Performance Space
 
-Dai-Kaku-Ji temple ... royal tea house.
+The royal tea house at Dai-Kaku-Ji temple.
 
-## Performance Artists
+- google maps:
+  - https://maps.app.goo.gl/MHLCYoxHEdDvYSGn6
+- website:
+  - https://www.daikakuji.or.jp
+- wikipedia:
+  - https://en.wikipedia.org/wiki/Daikaku-ji
+
+## Performance Participants
+
+### Artists
 
 TODO
 
-## Performance Sponsors
+### Sponsors
+
+TODO
+
+### Assistants
+
+TODO
+
+### Guardians
+
+TODO
+
+### Guests
 
 TODO
 

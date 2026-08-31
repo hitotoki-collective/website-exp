@@ -11,7 +11,12 @@ Location: Kyoto
 
 Ji-Go-Ji temple.
 
-TODO: more detail about the space
+- google maps:
+  - https://maps.app.goo.gl/BeUVNqUUg26pbRsE9
+- website:
+  - http://www.jingoji.or.jp
+- wikipedia:
+  - https://en.wikipedia.org/wiki/Jingo-ji
 
 ## Performance Artists
 
