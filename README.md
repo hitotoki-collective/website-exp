@@ -1,6 +1,6 @@
 # Hitotoki Art Collective Website
 
-This is the main website of the Hitotoki Collective, an art project born in Switzerland, bred in Japan and coming of age everywhere.
+An experimental website of the Hitotoki Collective, an art project born in Switzerland, bred in Japan and coming of age everywhere.
 
 ## Documentation
 
