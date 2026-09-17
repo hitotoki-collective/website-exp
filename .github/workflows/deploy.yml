@@ -26,8 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /website
-          NEXT_PUBLIC_SITE_URL: https://hitotoki-collective.github.io/website
+          NEXT_PUBLIC_BASE_PATH: /website-exp
+          NEXT_PUBLIC_SITE_URL: https://hitotoki-collective.github.io/website-exp
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
