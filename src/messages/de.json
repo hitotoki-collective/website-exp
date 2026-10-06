@@ -116,11 +116,11 @@
     "back": "Zurück zu den Spuren"
   },
   "photoAlts": {
-    "01-jp-kyo": {
+    "prf-01": {
       "p0": "Ein Tuschebild eines Drachen, der sich in einem Sturm von Pinselstrichen aufbäumt, aufgestellt auf Leinwand in einem Tempelgarten von Kyoto, neben einem Teich und einer Steinlaterne.",
       "p1": "Das Drachenbild auf schwarzem Tuch am Rand des Teichs, umgeben von Pinseln, einem Tuschegefäß und den Kiefern des Gartens."
     },
-    "02-jp-kyo": {
+    "prf-02": {
       "p0": "Ein großes Bild eines Fuchses in zinnoberroter und schwarzer Tusche, flankiert von Kalligrafie, aufgehängt über den Holzstufen einer Tempelhalle; darunter sitzt der Künstler in dunkler Kleidung."
     }
   },

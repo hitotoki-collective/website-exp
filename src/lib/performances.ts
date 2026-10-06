@@ -1,5 +1,5 @@
 export type Performance = {
-  /** Archive code, e.g. 01-JP-KYO */
+  /** Archive code, equal to its directory name in the archive, e.g. PRF-01 */
   code: string;
   /** URL slug */
   slug: string;
@@ -13,15 +13,15 @@ export type Performance = {
 
 export const performances: Performance[] = [
   {
-    code: "01-JP-KYO",
-    slug: "01-jp-kyo",
+    code: "PRF-01",
+    slug: "prf-01",
     ordinal: 1,
     country: "JP",
     cityCode: "KYO"
   },
   {
-    code: "02-JP-KYO",
-    slug: "02-jp-kyo",
+    code: "PRF-02",
+    slug: "prf-02",
     ordinal: 2,
     country: "JP",
     cityCode: "KYO"

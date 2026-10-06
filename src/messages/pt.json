@@ -116,11 +116,11 @@
     "back": "Voltar aos vestígios"
   },
   "photoAlts": {
-    "01-jp-kyo": {
+    "prf-01": {
       "p0": "Uma pintura a tinta de um dragão empinado numa tempestade de pinceladas, erguida sobre tela num jardim de templo de Quioto, junto a um lago e a uma lanterna de pedra.",
       "p1": "A pintura do dragão erguida sobre um pano preto à beira do lago, rodeada de pincéis, um vaso de tinta e os pinheiros do jardim."
     },
-    "02-jp-kyo": {
+    "prf-02": {
       "p0": "Uma grande pintura de uma raposa em tinta vermelhão e preta, ladeada por caligrafia, suspensa sobre os degraus de madeira de um salão do templo; o artista está sentado por baixo, de vestes escuras."
     }
   },

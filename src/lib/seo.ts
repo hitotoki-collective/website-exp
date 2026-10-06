@@ -4,7 +4,7 @@ import { siteUrl } from "./site";
 
 /**
  * hreflang alternates for a localized pathname.
- * `path` is the locale-less pathname, e.g. "/" or "/performances/01-jp-kyo".
+ * `path` is the locale-less pathname, e.g. "/" or "/performances/prf-01".
  */
 export function alternatesFor(path: string): Metadata["alternates"] {
   const suffix = path === "/" ? "" : path;

@@ -46,8 +46,23 @@ npm run dev
 
 ```bash
 npm run build
-npm start
 ```
+
+The site is a static export (`output: "export"` in `next.config.ts`), so the
+build writes plain HTML, CSS and JavaScript to `out/`. `next start` does not
+support static exports; to preview the production build locally, serve that
+directory with any static file server, for example:
+
+```bash
+npx serve out
+```
+
+### Deploy
+
+Pushing to `main` runs the [GitHub Pages workflow](./.github/workflows/deploy.yml),
+which builds with `NEXT_PUBLIC_BASE_PATH=/website-exp` and publishes `out/` to
+<https://hitotoki-collective.github.io/website-exp/>. Leave `NEXT_PUBLIC_BASE_PATH`
+unset when developing locally or serving from a root domain.
 
 ### Configuration
 
@@ -62,4 +77,4 @@ alternates, the sitemap and robots.txt.
 2. The archive pages, sitemap and structured data pick it up automatically.
 
 Note: the performance video masters (multi-GB) are kept outside this repository
-(see `../hitotoki/performances/`); the site references traces by archive code only.
+(see `../archive/performances/PRF-<NN>/`); the site references traces by archive code only.

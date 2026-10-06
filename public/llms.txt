@@ -23,9 +23,9 @@ Italian (/it).
   counter-intuitive economics of offering each performance's fruits to the
   guardians of sacred places.
 - [Traces](/en/performances): The archive of performances. Each trace is
-  numbered and placed (e.g. 01-JP-KYO — first performance, Kyoto, Japan).
-- [Trace 01-JP-KYO](/en/performances/01-jp-kyo): First performance, Kyoto.
-- [Trace 02-JP-KYO](/en/performances/02-jp-kyo): Second performance, Kyoto.
+  numbered (e.g. PRF-01 — the first performance, held in Kyoto, Japan).
+- [Trace PRF-01](/en/performances/prf-01): First performance, Kyoto.
+- [Trace PRF-02](/en/performances/prf-02): Second performance, Kyoto.
 - [Patronage](/en/patronage): The roles of sponsors and guardians, and how
   introductions to the Collective travel.
 

@@ -116,11 +116,11 @@
     "back": "Volver a las huellas"
   },
   "photoAlts": {
-    "01-jp-kyo": {
+    "prf-01": {
       "p0": "Una pintura a tinta de un dragón encabritado en una tormenta de pinceladas, erguida sobre lienzo en un jardín de templo de Kioto, junto a un estanque y una linterna de piedra.",
       "p1": "La pintura del dragón sobre una tela negra a la orilla del estanque, rodeada de pinceles, un recipiente de tinta y los pinos del jardín."
     },
-    "02-jp-kyo": {
+    "prf-02": {
       "p0": "Una gran pintura de un zorro en tinta bermellón y negra, junto a caligrafía, colgada sobre los escalones de madera de una sala del templo; el artista está sentado debajo, con ropas oscuras."
     }
   },

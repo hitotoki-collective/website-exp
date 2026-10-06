@@ -116,11 +116,11 @@
     "back": "Torna alle tracce"
   },
   "photoAlts": {
-    "01-jp-kyo": {
+    "prf-01": {
       "p0": "Un dipinto a inchiostro di un drago che si impenna in una tempesta di pennellate, ritto su tela in un giardino di tempio a Kyoto, accanto a uno stagno e a una lanterna di pietra.",
       "p1": "Il dipinto del drago ritto su un telo nero al bordo dello stagno, circondato da pennelli, un vaso d'inchiostro e i pini del giardino."
     },
-    "02-jp-kyo": {
+    "prf-02": {
       "p0": "Un grande dipinto di una volpe in inchiostro vermiglio e nero, affiancato da calligrafia, appeso sopra i gradini di legno di una sala del tempio; l'artista siede sotto, in abiti scuri."
     }
   },
